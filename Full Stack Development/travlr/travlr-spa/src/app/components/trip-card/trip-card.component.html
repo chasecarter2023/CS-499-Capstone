@@ -1,0 +1,11 @@
+<!-- src/app/components/trip-card/trip-card.component.html -->
+<div class="card mb-3">
+  <img [src]="'assets/images/' + trip.image.replace('/images/', '')" class="card-img-top" alt="{{ trip.name }}">
+  <div class="card-body">
+    <h5 class="card-title">{{ trip.name }}</h5>
+    <p class="card-text">{{ trip.description1 }}</p>
+    <a [routerLink]="['/edit', trip.id]" class="btn btn-secondary">Edit</a>
+    <!-- Delete button -->
+    <button (click)="onDelete()" class="btn btn-danger ms-2">Delete</button>
+  </div>
+</div>

@@ -1,0 +1,48 @@
+<!-- src/app/components/trip-form/trip-form.component.html -->
+<div class="container mt-4">
+    <h2>{{ isEditMode ? 'Edit Trip' : 'Add New Trip' }}</h2>
+    <form [formGroup]="tripForm" (ngSubmit)="onSubmit()">
+      <div class="mb-3">
+        <label for="name" class="form-label">Trip Name</label>
+        <input
+          id="name"
+          type="text"
+          class="form-control"
+          formControlName="name"
+          placeholder="Enter trip name"
+        >
+      </div>
+      <div class="mb-3">
+        <label for="image" class="form-label">Image URL</label>
+        <input
+          id="image"
+          type="text"
+          class="form-control"
+          formControlName="image"
+          placeholder="Enter image URL"
+        >
+      </div>
+      <div class="mb-3">
+        <label for="description1" class="form-label">Description 1</label>
+        <textarea
+          id="description1"
+          class="form-control"
+          formControlName="description1"
+          placeholder="Enter primary description"
+        ></textarea>
+      </div>
+      <div class="mb-3">
+        <label for="description2" class="form-label">Description 2</label>
+        <textarea
+          id="description2"
+          class="form-control"
+          formControlName="description2"
+          placeholder="Enter secondary description"
+        ></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">
+        {{ isEditMode ? 'Update Trip' : 'Add Trip' }}
+      </button>
+    </form>
+  </div>
+  
