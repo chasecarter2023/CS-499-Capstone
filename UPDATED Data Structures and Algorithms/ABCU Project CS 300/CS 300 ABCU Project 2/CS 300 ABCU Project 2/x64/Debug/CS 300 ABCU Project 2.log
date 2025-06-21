@@ -1,0 +1,7 @@
+﻿  CSVparser.cpp
+  CS 300 ABCU Project 2.cpp
+C:\Users\chase carter\OneDrive\Desktop\CS-499 Capstone\ABCU Project CS 300\CS 300 ABCU Project 2\CS 300 ABCU Project 2\CS 300 ABCU Project 2.cpp(242,13): warning C4566: character represented by universal-character-name '\u2010' cannot be represented in the current code page (1252)
+C:\Users\chase carter\OneDrive\Desktop\CS-499 Capstone\ABCU Project CS 300\CS 300 ABCU Project 2\CS 300 ABCU Project 2\CS 300 ABCU Project 2.cpp(326,13): warning C4566: character represented by universal-character-name '\u2010' cannot be represented in the current code page (1252)
+  Generating Code...
+  sqlite3.c
+  CS 300 ABCU Project 2.vcxproj -> C:\Users\chase carter\OneDrive\Desktop\CS-499 Capstone\ABCU Project CS 300\CS 300 ABCU Project 2\x64\Debug\CS 300 ABCU Project 2.exe
