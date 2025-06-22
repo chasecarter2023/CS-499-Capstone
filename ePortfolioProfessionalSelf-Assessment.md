@@ -15,8 +15,8 @@ write clean, maintainable code and communicate effectively with teammates. In ad
 stakeholders through written reports and interface mockups—skills that are essential in today’s software development roles.
 
 DSA were used practical algorithmic thinking to build search features, logic controllers, and performance improvements
-across multiple projects. Software Engineering & Databases**: Created desktop and web applications using Java, Python, JavaScript, Node.js, 
-MongoDB, and SQL. Applied structured design and testing principles throughout. Security Awareness**: Applied secure coding practices such as 
+across multiple projects. For software engineering & databases I created desktop and web applications using Java, Python, JavaScript, Node.js, 
+MongoDB, and SQL. Applied structured design and testing principles throughout. For security awareness I applied secure coding practices such as 
 input validation, error handling, and minimizing attack surfaces in both client and server logic.
 
 The artifacts in this portfolio showcase my full range of software development skills. Thermostat System: Built in Python on a Raspberry Pi 
